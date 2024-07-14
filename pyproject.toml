@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "resume"
+version = "0.1.0"
+description = "Resume to be created using sphinx and published using guthub pages"
+authors = ["pr0f37 <adam.nowik@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Sphinx = "^7.3.7"
+myst-parser = "^3.0.1"
+sphinx-design = "^0.6.0"
+furo = "^2024.5.6"
+linkify-it-py = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
