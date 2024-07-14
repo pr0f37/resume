@@ -46,3 +46,4 @@ myst_enable_extensions = [
 
 html_theme = "furo"
 html_static_path = ["_static"]
+html_title = "Adam Nowik Resume"
