@@ -45,7 +45,7 @@ RUN --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
     poetry install --no-directory
 ENV PATH="/opt/venv/bin:$PATH"
 # Switch to the non-privileged user to run the application.
-USER appuser
+# USER appuser
 
 # Copy the source code into the container.
 COPY . .
